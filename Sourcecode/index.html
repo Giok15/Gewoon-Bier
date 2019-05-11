@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- in de head word de titel, het icoontje, de charset en de link naar css vermeld-->
+	<head>
+		<title>Gewoon Bier</title>
+		<link rel="icon" type="image/png" href="titleLogo.ico"/>
+		<meta charset="UTF-8"> 
+		<link href="style.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<section class="wrapper">
+		
+			<!-- de header bevat de menubar en het logo van de website-->
+			<header>
+				<nav class="menuBar">
+					<a class='menuItem' href="index.html">Home</a>
+					<a class='menuItem' href="overons.html">Over ons</a>
+					<a class='menuItem' href="assortiment.html">Assortiment</a>
+					<a class='menuItem' href="openingstijden.html">Openingstijden</a>
+					<a class='menuItem' href="contact.html">Contact</a>
+					<a href="index.html"><img alt="afbeelding Logo" class='menuItem menuItem--logo' src="navlogo.png"></a>
+				</nav>
+			</header>
+			
+			<!-- in de section 'context' word de pagina achtergrond geregeld en overige dingen die tussen de header en footer komen-->
+			<section id="context" class="context home--background">
+			
+				<!-- de section 'homeImages' is een container waarin afbeeldingen gebruikt worden die gelinkt zijn naar andere pagina`s-->
+				<section class='homeImages'>
+					<a href="overons.html"><img alt="afbeeldingsvoorbeeld van het team" src="Afbeeldingen/HomeLinks/overonsHome.png" id="overonsHome" class="homeNavigation"></a>
+					<a href="assortiment.html"><img alt="afbeeldingsvoorbeeld assortiment" src="Afbeeldingen/HomeLinks/assortimentHome.png" id="assortimentHome" class="homeNavigation"></a>
+					<a href="contact.html"><img alt="afbeeldingsvoorbeeld contact" src="Afbeeldingen/HomeLinks/contactHome.png" id="contactHome" class="homeNavigation"></a>
+				</section>
+				
+				<!-- de section 'homeLinks' is een container waarin linkjes gebruikt worden die linken naar andere pagina`s-->
+				<section class='homeLinks'>
+					<a id='homeLink1' href="overons.html">Over ons</a>
+					<a id='homeLink2' href="assortiment.html">Assortiment</a>
+					<a id='homeLink3' href="contact.html">Contact</a>
+				</section>
+
+			</section>
+			
+			<!-- in de footer wordt gebruik gemaakt van socialmedia afbeeldingen die gelinkt worden naar de bijbetreffende socialMedia-pagina -->
+			<footer>
+				<aside class="socialMediaBar">
+					<a href="https://www.facebook.com/"><img alt="afbeelding Facebook logo" class="socialMedia socialMedia--Facebook" src="Afbeeldingen/SocialMedia/facebook_focusoff.png"></a>
+					<a href="https://www.instagram.com/"><img alt="afbeelding Instagram logo" class="socialMedia socialMedia--Instagram" src="Afbeeldingen/SocialMedia/instagram_focusoff.png"></a>
+					<a href="https://nl.pinterest.com/"><img alt="afbeelding Pinterest logo" class="socialMedia socialMedia--Pinterest" src="Afbeeldingen/SocialMedia/pinterest_focusoff.png"></a>
+					<a href="https://plus.google.com/"><img alt="afbeelding Googlee logo" class="socialMedia socialMedia--Google" src="Afbeeldingen/SocialMedia/google_focusoff.png"></a>
+					<a href="https://www.linkedin.com/uas/login"><img alt="afbeelding Linkedin logo" class="socialMedia socialMedia--Linkedin" src="Afbeeldingen/SocialMedia/linkedin_focusoff.png"></a>
+					<a href="https://twitter.com/?lang=nl"><img alt="afbeelding Twitter logo" class="socialMedia socialMedia--Twitter" src="Afbeeldingen/SocialMedia/twitter_focusoff.png"></a>
+				</aside>
+			</footer>
+		</section>
+	</body>
+</html>

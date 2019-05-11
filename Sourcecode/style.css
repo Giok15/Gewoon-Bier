@@ -1,0 +1,297 @@
+/*----------------------------------------------------------------------------BODY----------------------------------------------------------------------------*/
+body {
+  margin: 0;
+   font-family: Tahoma, Arial;
+}
+
+#wrapper{
+	margin: 0;	
+}
+
+/*-----------------------------------------------------------------------HEADERCLASSES------------------------------------------------------------------------*/
+.menuBar {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  box-shadow:4px 5px 8px #292929;
+}
+
+.menuItem {
+  color: rgb(153, 153, 153);
+  float: left;
+  font-size: 18px;
+  padding: 18px 15px 15px 15px;
+  text-decoration: none;
+  font-family: Tahoma;
+}
+
+.menuItem:Hover {
+  color: white;
+}
+
+.menuItem--logo {
+  height: 56px;
+  padding-top: 3px
+}
+
+
+/*-------------------------------------------------------------------HomeLinks------------------------------------------------------------------------------*/
+
+.homeImages{
+	
+	margin-left: 109px;
+}
+
+.homeNavigation{
+	width: 280px;
+	height: 250px;
+	cursor: pointer;
+}
+
+#assortimentHome{
+	margin-left: 206px;
+	margin-top: 256px;
+}
+
+#contactHome{
+	margin-left: 165px;
+}
+
+#overonsHome{
+	margin-left: 19px;	
+}
+
+.homeLinks{
+	margin-left: 109px;
+	width: 1149px;
+	font-size: 20px;
+	color: black;
+}
+
+#homeLink1{
+	margin-left: 109px;	
+	text-decoration: none;
+	 color: black;
+}
+
+#homeLink2{	
+	margin-left: 404px;
+	text-decoration: none;
+	 color: black;
+}
+
+#homeLink3{
+	margin-left: 360px;
+	text-decoration: none;
+	 color: black;
+}
+
+/*--------------hover--------------*/
+#assortimentHome:Hover {
+  content:url('Afbeeldingen/HomeLinks/assortimentHomeFocus.png');
+}
+
+#contactHome:Hover {
+  content:url('Afbeeldingen/HomeLinks/contactHomeFocus.png');
+}
+
+#overonsHome:Hover {
+  content:url('Afbeeldingen/HomeLinks/overonsHomeFocus.png');
+}
+
+/*--------------------------------------------------------------------------CONTEXT IN BODY---------------------------------------------------------------------------*/
+.context {
+  width: 100%;
+  height: 850px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
+.home--background {
+  background-image: url('Achtergronden/achtergrondHome.jpg');
+}
+
+.overons--background {
+  background-image: url('Achtergronden/achtergrondOverons.jpg');
+}
+
+.assortiment--background {
+  background-image: url('Achtergronden/achtergrondAssortiment.jpg');
+}
+
+.openingstijden--background {
+  background-image: url('Achtergronden/achtergrondOpeningstijden.jpg');
+}
+
+.contact--background {
+  background-image: url('Achtergronden/achtergrondContact.jpg');
+}
+
+#details{
+  background-color: rgba(182, 182, 182, 0.50);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.28);
+  width: 729px;
+  height: 570px;
+  margin-left: 122px;
+  padding-left: 40px;
+  border-radius: 12px;
+  padding-top: 20px;
+}
+
+#details_overons{
+	background-color: rgba(182, 182, 182, 0.50);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.28);
+	width: 729px;
+	height: 733px;
+	margin-left: 122px;
+	padding-left: 40px;
+	border-radius: 12px;
+	padding-top: 20px;
+}
+
+#bigImageContainer{
+	
+	margin-left: 40px;
+	position: absolute;
+	bottom: 145px;
+    right: 230px;
+}
+
+#bigImage{
+	
+	width: 200px;
+	height: 592px;
+	position: absolute;
+    bottom: -117px;
+    right: 60px;
+}
+
+/*---------------------------------------------------------------------------DETAILS IN CONTAINERBOX-------------------------------------------------------------------------*/
+
+.contactgegevens{
+  font-size: 17px;
+}
+
+.contactDetail{
+	margin-bottom: -10px;
+}
+
+.overons{
+  width: 640px;
+}
+
+#dagVandaagContainer
+{
+	position: absolute;
+    top: 170px;
+    left: 413px;	
+	font-size: 23px;
+}
+
+#maps{
+  padding-top: 50px;
+  height: 360px;
+  width: 668px;  
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.product{
+  width: 180px;
+  height: 230px;
+  background-color: rgba(45, 39, 39, 0.50);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.28);
+  float: left;
+}
+
+
+#imgOpeningstijden{
+	width: 516px ;
+	height: 334px;
+	margin-top: 20px;	
+    position: absolute;
+    top: 361px;
+    right: 610px;
+}
+
+#imgOpeningstijden1{
+	margin-top: 20px;	
+    position: absolute;
+    bottom: 145px;
+    right: 230px;
+}
+
+#imgWinkel{
+	
+	width: 606px ;
+	height: 336px;
+	margin-top: 20px;
+}
+
+
+/*-----------ASSORTIMENT------------------*/
+
+#prd2, #prd3
+{
+  margin-left: 60px;
+}
+
+#prd4
+{
+  margin-top: 90px;
+}
+
+#prd5, #prd6
+{
+  margin-left: 60px;
+  margin-top: 90px;
+}
+
+/*---------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
+.socialMediaBar {
+  height: 56px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.socialMedia {
+  padding-top: 8px;
+  padding-left: 15px;
+  height: 40px;
+  width: 40px;
+}
+
+.socialMedia--Facebook {
+  margin-left: 36%;
+}
+
+.socialMedia--Facebook:Hover {
+  content:url('Afbeeldingen/SocialMedia/facebook.png');
+}
+
+.socialMedia--Instagram:Hover {
+  content:url('Afbeeldingen/SocialMedia/instagram.png');
+}
+
+.socialMedia--Pinterest:Hover {
+  content:url('Afbeeldingen/SocialMedia/pinterest.png');
+}
+
+.socialMedia--Google:Hover {
+  content:url('Afbeeldingen/SocialMedia/google.png');
+}
+
+.socialMedia--Linkedin:Hover {
+  content:url('Afbeeldingen/SocialMedia/linkedin.png');
+}
+
+.socialMedia--Twitter:Hover {
+  content:url('Afbeeldingen/SocialMedia/twitter.png');
+}
+
+
+
+

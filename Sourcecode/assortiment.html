@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<!-- in de head word de titel, het icoontje, de charset, de link naar css en de link naar javascript vermeld-->
+	<head>
+		<title>Gewoon Bier</title>
+		<link rel="icon" type="image/png" href="titleLogo.ico"/>
+		<meta charset="UTF-8"> 
+		<link href="style.css" rel="stylesheet"/>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+		
+			<!-- de header bevat de menubar en het logo van de website-->
+			<header>
+				<nav class="menuBar">
+					<a class='menuItem' href="index.html">Home</a>
+					<a class='menuItem' href="overons.html">Over ons</a>
+					<a class='menuItem' href="assortiment.html">Assortiment</a>
+					<a class='menuItem' href="openingstijden.html">Openingstijden</a>
+					<a class='menuItem' href="contact.html">Contact</a>
+					<a href="index.html"><img alt="afbeelding Logo" class='menuItem menuItem--logo' src="navlogo.png"></a>
+				</nav>
+			</header>
+			
+			<!-- in de section 'context' word de pagina achtergrond geregeld en overige dingen die tussen de header en footer komen-->
+			<section id="context" class="context assortiment--background">
+			
+					<!-- in de section 'details' word netjes een transparant grijs vak gecreerd waar informatie over de bijbetreffende pagina inkomt
+					 in het geval van de assortiment pagina worden er afbeeldingen in geladen die gehoverd worden door een javascript functie-->
+					<section id="details">
+							<img alt="afbeelding populair product 1" src="Afbeeldingen/Assortiment/product1Focus.png" id="prd1" onmouseover="Assortiment('prd1')" class="product">
+							<img alt="afbeelding populair product 2" src='Afbeeldingen/Assortiment/product2.png' id="prd2" onmouseover="Assortiment('prd2')" class="product">
+							<img alt="afbeelding populair product 3" src="Afbeeldingen/Assortiment/product3.png" id="prd3" onmouseover="Assortiment('prd3')" class="product">
+							<img alt="afbeelding populair product 4" src="Afbeeldingen/Assortiment/product4.png" id="prd4" onmouseover="Assortiment('prd4')" class="product">
+							<img alt="afbeelding populair product 5" src="Afbeeldingen/Assortiment/product5.png" id="prd5" onmouseover="Assortiment('prd5')" class="product">
+							<img alt="afbeelding populair product 6" src="Afbeeldingen/Assortiment/product6.png" id="prd6" onmouseover="Assortiment('prd6')" class="product">
+					</section>
+					
+				<!-- de section 'bigImageContainer' is een container waarin een 
+				image komt te zitten die een vergrote afbeelding + logo laat zien van het geselecteerde product-->	
+				<aside id='bigImageContainer'>
+				  <img id="bigImage" alt="afbeelding product + logo van selectie" src="Afbeeldingen/Assortiment/prd1Big.png">
+				</aside>
+			</section>
+			
+			<!-- in de footer wordt gebruik gemaakt van socialmedia afbeeldingen die gelinkt worden naar de bijbetreffende socialMedia-pagina -->
+			<footer>
+				<aside class="socialMediaBar">
+					<a href="https://www.facebook.com/"><img alt="afbeelding Facebook logo" class="socialMedia socialMedia--Facebook" src="Afbeeldingen/SocialMedia/facebook_focusoff.png"></a>
+					<a href="https://www.instagram.com/"><img alt="afbeelding Instagram logo" class="socialMedia socialMedia--Instagram" src="Afbeeldingen/SocialMedia/instagram_focusoff.png"></a>
+					<a href="https://nl.pinterest.com/"><img alt="afbeelding Pinterest logo" class="socialMedia socialMedia--Pinterest" src="Afbeeldingen/SocialMedia/pinterest_focusoff.png"></a>
+					<a href="https://plus.google.com/"><img alt="afbeelding Googlee logo" class="socialMedia socialMedia--Google" src="Afbeeldingen/SocialMedia/google_focusoff.png"></a>
+					<a href="https://www.linkedin.com/uas/login"><img alt="afbeelding Linkedin logo" class="socialMedia socialMedia--Linkedin" src="Afbeeldingen/SocialMedia/linkedin_focusoff.png"></a>
+					<a href="https://twitter.com/?lang=nl"><img alt="afbeelding Twitter logo" class="socialMedia socialMedia--Twitter" src="Afbeeldingen/SocialMedia/twitter_focusoff.png"></a>
+				</aside>
+			</footer>
+		</div>
+	</body>
+</html>
